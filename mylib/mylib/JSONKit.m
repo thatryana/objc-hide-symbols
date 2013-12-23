@@ -2246,6 +2246,7 @@ static id _JKParseUTF8String(JKParseState *parseState, BOOL mutableCollections, 
 
 - (id)objectWithData:(NSData *)jsonData
 {
+    NSLog(@"using mylib");
   return([self objectWithData:jsonData error:NULL]);
 }
 
